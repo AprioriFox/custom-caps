@@ -1,0 +1,102 @@
+{
+    "caps": [
+        {
+            "id": 0,
+             "name": "Nike",
+             "secondName": "French Fries Series",
+             "price": "4500c"
+        },
+        {
+            "id": 1,
+             "name": "New Era",
+             "secondName": "New York Yankies",
+             "price": "3800c"
+        },
+        {
+            "id": 2,
+             "name": "New Era",
+             "secondName": "Alpha Male Team",
+             "price": "3990c"
+        },
+        {
+            "id": 3,
+             "name": "New Era",
+             "secondName": "Supreme Collab",
+             "price": "6000c"
+        },
+        {
+            "id": 4,
+             "name": "DC",
+             "secondName": "Camo Cap Star",
+             "price": "2500c"
+        },
+        {
+            "id": 5,
+             "name": "Reebok",
+             "secondName": "Chicago Bulls",
+             "price": "2000c"
+        },
+        {
+            "id": 6,
+             "name": "Flexfit",
+             "secondName": "One Maroon",
+             "price": "500c"
+        },
+        {
+            "id": 7,
+             "name": "New Era",
+             "secondName": "Supreme Collab REd",
+             "price": "6000c"
+        },
+        {
+            "id": 8,
+             "name": "Science",
+             "secondName": "Heisenberg ",
+             "price": "1800c"
+        },
+        {
+            "id": 9,
+             "name": "Black Clover",
+             "secondName": "Rip Curl",
+             "price": "700c"
+        },
+        {
+            "id": 10,
+             "name": "Kiddo Cap",
+             "secondName": "Robotics",
+             "price": "1200c"
+        },
+        {
+            "id": 11,
+             "name": "Kiddo Caps",
+             "secondName": "Panda",
+             "price": "650c"
+        },
+        {
+            "id": 12,
+             "name": "New Era",
+             "secondName": "Celtics Team ",
+             "price": "3500c"
+        },
+        {
+            "id": 13,
+             "name": "New Era",
+             "secondName": "Armed Forces",
+             "price": "7000c"
+        },
+        {
+            "id": 14,
+             "name": "New Era",
+             "secondName": "Mothers Week",
+             "price": "3000c"
+        },
+        {
+            "id": 15,
+             "name": "New Era",
+             "secondName": "Armed Forse",
+             "price": "4300c"
+        }
+
+        
+    ]
+}
