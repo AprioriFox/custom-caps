@@ -17,13 +17,14 @@ const App = () => {
     // const [ items , setItems ] = useState([])
      useEffect(() => {
         axios.get('http://localhost:3000/db.json').then(({ data }) => {
-            dispatch(setCaps(data.caps))
+            dispatch(setCaps(data.caps)) 
+            console.log(data)
         })
     },[])
 
     // console.log(items);
    
-    return (
+    return ( 
         <div>
             <Home />
         </div>

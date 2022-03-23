@@ -5,7 +5,7 @@ import { useCallback } from 'react';
 import Catalogcards from './CatalogCards';
 import Cap from '../../assets/cap.svg';
 import { setCaps } from '../../redux/actions/caps';
-const Catalog = ({ caps}) => {
+const Catalog = ({caps}) => {
   return (
     <div className="container">
       <div className="banner__block">
@@ -25,7 +25,7 @@ const Catalog = ({ caps}) => {
               <li>Сначала дорогие</li>
               <li>Новинки</li>
             </ul>
-          </div>
+          </div> 
         </div>
         <div className="catalog__blocks">
             {
