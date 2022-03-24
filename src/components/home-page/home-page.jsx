@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 const HomePage = () => {
   return (
-    <div className="home__page">
+    <div className="wrapper">
       <div className="banner">
         <div className="container">
           <div className="main__banner">
@@ -30,7 +30,7 @@ const HomePage = () => {
                 alt=""
               />
             </div>
-            <div className="prew__block__price"> 
+            <div className="prew__block__price">
               <p className="price__yr">2021</p>
 
               <p className="price__name">New Era</p>
