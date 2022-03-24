@@ -3,8 +3,8 @@ import './style.css';
 const HomePage = () => {
   return (
     <div className="wrapper">
-        <div className="banner">
-      <div className="container">
+      <div className="banner">
+        <div className="container">
           <div className="main__banner">
             <div className="main__banner__title">
               <h2>New Era</h2>
@@ -16,21 +16,27 @@ const HomePage = () => {
               </p>
             </div>
             <div className="main__banner__button">
-                <button className='main__btn'>Открыть каталог</button>
+              <button className="main__btn">Открыть каталог</button>
             </div>
           </div>
-          <div className="main__prew">
-              <div className="prew__blocks">
-                  <div className="prew__block">
-                      <div className="prew__block__img">
-                          <img src="https://www.freepnglogos.com/uploads/cap-png/cap-new-caps-png-download-for-picsart-png-download-nsb-7.png" alt="" />
+        </div>
+      </div>
+      <div className="main__prew">
+        <div className="prew__blocks">
+          <div className="prew__block">
+            <div className="prew__block__img">
+              <img
+                src="https://www.freepnglogos.com/uploads/cap-png/cap-new-caps-png-download-for-picsart-png-download-nsb-7.png"
+                alt=""
+              />
+            </div>
+            <div className="prew__block__price">
+              <p className="price__yr">2021</p>
 
-                      </div>
-                      <div className="prew__block__price">
-                        <p>fd</p>
-                      </div>
-                  </div>
-              </div>
+              <p className="price__name">New Era</p>
+              <div className="price__sub">Houston Rockets</div>
+              <div className="price__price">2399c</div>
+            </div>
           </div>
         </div>
       </div>
@@ -39,3 +45,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+ 

@@ -7,8 +7,8 @@ const Home = () => {
     const caps =  useSelector(({ caps }) => caps.items)
     return (
         <div>
-            <Catalog caps={caps} />
-            {/* <HomePage /> */}
+            {/* <Catalog caps={caps} /> */}
+            <HomePage />
         </div>
     );
 }
