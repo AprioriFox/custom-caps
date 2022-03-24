@@ -11,7 +11,7 @@ const Catalog = ({caps}) => {
       <div className="banner__block">
         <div className="banner__title">
           <h3>НОВАЯ СЕРИЯ McLAREN</h3>
-        </div>
+        </div>  
       </div>
       <div className="catalogs">
         <div className="catalog__filter">
@@ -29,7 +29,7 @@ const Catalog = ({caps}) => {
         </div>
         <div className="catalog__blocks">
             {
-                caps.map((obj,idx) => <Catalogcards  key={obj.id} caps={obj} />)  
+                caps.map((obj) => <Catalogcards  key={obj.id} caps={obj} />)  
             }
          
           

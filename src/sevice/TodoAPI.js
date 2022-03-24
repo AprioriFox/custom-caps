@@ -64,22 +64,22 @@ class TodoApi {
   //     })
   // }
 
-  // deleteTodos = (id) => {
-  //     const credentials =  this._credentials
+  deleteTodos = (id) => {
+      const credentials =  this._credentials
 
-  //    return fetch(
-  //         `${this._baseUrl}/v1/todo/${id}`,
-  //         {
-  //             method: 'DELETE',
-  //             headers: {
-  //                 'Content-Type': 'application/json',
-  //                 'Authorization': `Bearer ${credentials.access}`
-  //             }
-  //         }
-  //     ).then(response => {
-  //         return response.text()
-  //     })
-  // }
+     return fetch(
+          `${this._baseUrl}/v1/todo/${id}`,
+          {
+              method: 'DELETE',
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${credentials.access}`
+              }
+          }
+      ).then(response => {
+          return response.text()
+      })
+  }
   // updateTodo (id, body) {
   //     const credentials = this._credentials
   //     return fetch(
